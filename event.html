@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <!-- Include jQuery library -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            padding-top: 80px;
+            background-color: #343a40;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+
+            display: flex; /* Use flexbox for layout */
+        }
+        .events {
+            flex: 1; /* Take up remaining space */
+            padding: 20px;
+        }
+        .svg-container {
+            flex: 1; /* Take up remaining space */
+            display: flex;
+            justify-content: flex-end; /* Align to the right */
+            align-items: center; /* Center vertically */
+            padding: 20px;
+        }
+        .svg-container svg {
+            max-width: 50%; /* Limit size to 50% of the container */
+            height: auto;
+        }
+        .event {
+            background-color: #444;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .event h3 {
+            margin-top: 0;
+        }
+        .event p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<header></header>
+
+<div class="events"></div>
+<div class="svg-container">
+    <img src="images/undraw_travel_plans_re_103r.svg" alt="Travel Plans" width="50%" height="auto">
+</div>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="scripts/app.js"></script>
+<script src="scripts/nav.js"></script>
+</body>
+</html>

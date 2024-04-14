@@ -1,0 +1,208 @@
+
+/*dont worry about this this is for the image as the background*/
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../pictures/background.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;}
+
+.banner-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../pictures/background.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+}
+
+
+.accordion{
+    background-color: lightblue; /*this sets the background color of whatever you want to style (for this its the service button) */
+    color: #444; /*this sets the color of the text*/
+    cursor: pointer;/*Changes the cursor to a pointer (hand) when hovering over the button*/
+    padding: 18px; /*this add space around the text inside the button*/
+    width: 50%; /*this makes the button take up the full space of their container*/
+    font-size: 25px; /* changes the font size inside the button*/
+    transition: 1s; /*Adds a smooth transition effect over 0.4 seconds when the buttons change state.*/
+    margin-top: 40px; /* Remove top margin if any */
+    border-radius: 20px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 10px; /* Smaller gap between grid items */
+    padding: 10px; /* Smaller padding around the grid */
+    background-color: #2196F3;
+    border-radius: 25px;
+}
+
+/* Grid box styling for equal sizing */
+.grid-box {
+    flex: 1 1 200px; /* Flex grow, shrink and basis set to 200px */
+    display: flex; /* Make grid-box a flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #ffffff; /* Background color for each grid box */
+    border-radius: 25px; /* Rounded corners for each grid box */
+    color: #000000; /* Black color for the text */
+}
+
+
+/* this is for the teams.html*/
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right; /* Float the image to the left */
+    font-size: 28px;
+    font-weight: bold; /*  bolds the font*/
+}
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+
+}
+/* Transparent background for the navbar and footer */
+.navbar.bg-dark {
+    background-color: transparent !important;
+}
+.our-team{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+
+footer .navbar-dark .nav-link {
+    color: #ffffff; /* White color for the text */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+.services {
+    color: white;
+    margin-top: 20px; /* Fixed size */
+}
+.welcome{
+    color: white;
+    margin-top: 5%;
+
+
+}
+.welcome h1{
+    text-align: center;
+}
+.card {
+    border: 1px solid #ddd; /* Subtle border for the card */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-3px); /* Subtle lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.card-img-top {
+    width: 100%; /* Full width of card */
+    height: auto; /* Keep aspect ratio */
+    object-fit: cover; /* Cover entire area */
+    border-top-left-radius: calc(0.25rem - 1px); /* Rounded corners */
+    border-top-right-radius: calc(0.25rem - 1px);
+    max-height: 150px; /* Limit image height */
+}
+
+.card-body {
+    padding: 10px; /* Reduced padding */
+}
+
+
+
+.card-text {
+    font-size: 0.9rem; /* Adjusted font size for readability */
+}
+
+/* Grid box adjustments */
+.grid-box {
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Space between grid items */
+}
+
+
+
+.portfolio-title{
+    color: white;
+    margin-top: 20px;
+
+}
+.slideshow-background {
+    width: 45%;
+    height: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../pictures/homepage1.png') center/cover;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    animation: slide 15s infinite;
+    margin-top: 30px;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 10px; /* Optional: adds rounded corners */
+
+}
+
+
+@keyframes slide {
+    0% { background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../pictures/homepage2.jpg') center/cover; }
+    33% { background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../pictures/homepage3.jpg') center/cover; }
+    66% { background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../pictures/homepage4.png') center/cover; }
+
+
+}
+
+body {
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    color: white;
+
+
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px; /* Set a fixed height */
+    margin: 10px;
+    cursor: pointer;
+    object-fit: cover; /* Ensure the image covers the area without distorting aspect ratio */
+}
+
+.top-space {
+    margin-top: 100px; /* Adjust the value as needed */
+}
+
+
+#welcomeMessage {
+    display: flex; /* Use flexbox to center the child */
+    justify-content: center; /* Center horizontally */
+    
+}
+.stat{
+    margin-left: 44%;
+    margin-top: 100px;
+    margin-bottom: 65px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jaden Parris">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team</title>
+    <!-- Css section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="content/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<header></header>
+<div class="banner">
+    <div class="welcome">
+    <h1 class="text-center text-white mt-4 mb-4">Team Information</h1>
+    <div class="grid container">
+        <!-- Team Member: Jaden Parris -->
+        <div class="grid-box text-center">
+            <img src="pictures/jadenpic.jpg" alt="Jaden Parris" class="rounded-circle mb-2" style="width: 100px; height: 100px; object-fit: cover;"/>
+            <h5>Jaden Parris</h5>
+            <button onclick="document.getElementById('JadenModal').style.display='block'" class="w3-button w3-black mt-2">Click for More</button>
+            <div class="role-description mt-2">
+                <p>My role is to create an optimal Home Page, Portfolio Page, Service Page, and Team Page.</p>
+            </div>
+        </div>
+
+        <!-- Team Member: Nathenial Mais -->
+        <div class="grid-box text-center">
+            <img src="pictures/nathenialpic.jpg" alt="Nathenial Mais" class="rounded-circle mb-2" style="width: 100px; height: 100px; object-fit: cover;"/>
+            <h5>Nathenial Mais</h5>
+            <button onclick="document.getElementById('NathenialModal').style.display='block'" class="w3-button w3-black mt-2">Click for More</button>
+            <div class="role-description mt-2">
+                <p>My role is to create a visually appealing Blog Page, Privacy Policy Page, Terms of Service Page, and Contact Page.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Jaden's W3.CSS Modal -->
+    <div id="JadenModal" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('JadenModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Jaden is a very hardworking individual who excels at analytical thinking and working under pressure.</p>
+            </div>
+        </div>>
+        </div>
+    </div>
+
+    <!-- Nathenial's W3.CSS Modal -->
+    <div id="NathenialModal" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('NathenialModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Nathenial Mais loves to work in groups and loves taking on challenges, especially related to coding.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Scripting section-->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/namespace.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/nav.js"></script>
+
+</body>
+</html>

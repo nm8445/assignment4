@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "name": "Community Picnic",
+      "date": "2024-03-15",
+      "location": "Central Park",
+      "description": "Join us for a fun-filled community picnic at Central Park."
+    },
+    {
+      "name": "Charity Run",
+      "date": "2024-04-10",
+      "location": "Riverfront Trail",
+      "description": "Participate in our charity run and help raise funds for a good cause."
+    },
+    {
+      "name": "Art Exhibition",
+      "date": "2024-05-20",
+      "location": "City Art Gallery",
+      "description": "Visit our art exhibition showcasing local artists' works."
+    },
+    {
+      "name": "Food Festival",
+      "date": "2024-06-12",
+      "location": "Downtown Square",
+      "description": "Experience a variety of cuisines at our annual food festival."
+    },
+    {
+      "name": "Concert in the Park",
+      "date": "2024-07-25",
+      "location": "City Park Amphitheater",
+      "description": "Enjoy live music performances in the park under the stars."
+    }
+
+  ]
+}

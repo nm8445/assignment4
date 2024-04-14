@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="content/styles.css">
+
+</head>
+<body>
+
+<div class="banner">
+    <div class="welcome">
+    <header>
+        <!-- Your header content here -->
+    </header>
+    <h1>Community Event Gallery</h1>
+    <p class="lead gallery-intro">Explore memories from our past events and activities. Click on any image to view it in full size.</p>
+    <div class="gallery">
+        <!-- Gallery items will be added here -->
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="lightbox-img" src="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Scripting section-->
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/namespace.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/nav.js"></script>
+</body>
+</html>

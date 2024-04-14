@@ -1,0 +1,10 @@
+{
+  "images": [
+    {"src": "./pictures/assignment2.jpg", "alt": "Event 1"},
+    {"src": "./pictures/ass2pic2.jpg", "alt": "Event 2"},
+    {"src": "./pictures/ass2pic3.jpg", "alt": "Event 3"},
+    {"src": "./pictures/ass2pic4.jpg", "alt": "Event 4"},
+    {"src": "./pictures/ass2pic5.jpg", "alt": "Event 5"},
+    {"src": "./pictures/ass2pic6.jpg", "alt": "Event 6"}
+  ]
+}

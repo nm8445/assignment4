@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nathaniel Mais">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harmony Blogs</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            background-color: #343a40; /* Use the same color as Bootstrap's bg-dark */
+            color: #fff; /* Set the text color to white */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header></header>
+<!-- Showcase -->
+<section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <main class="container">
+                <h1><i class="fa-solid fa-moon"></i> Welcome to our contact page</h1>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input id="fullName" name="fullName" type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contactNumber" class="form-label">Contact Number</label>
+                        <input id="contactNumber" name="contactNumber" type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="emailAddress" class="form-label">Email</label>
+                        <input id="emailAddress" name="emailAddress" type="email" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" name="message" class="form-control" required></textarea>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input id="subscribeCheckbox" name="subscribeCheckbox" type="checkbox" class="form-check-input">
+                        <label class="form-check-label" for="subscribeCheckbox">Subscribe to our contact list</label>
+                    </div>
+
+                    <div class="mb-3">
+                        <button id="sendButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-closed-captioning"></i>Submit</button>
+                        <button id="cancelButton" type="reset" class="btn btn-secondary"><i class="fa-solid fa-toilet-paper-slash"></i>Reset</button>
+                    </div>
+                </form>
+            </main>
+
+            <img class="img-fluid w-50 d-none d-sm-block" src="images/undraw_mail_re_duel.svg" alt=""/>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <main class="container">
+                <h1><i class="fa-solid fa-moon"></i>Feedback</h1>
+
+
+                <form id="feedbackForm">
+                    <div class="mb-3">
+                        <label for="FeedbackSection" class="form-label">Feedback</label>
+                        <textarea id="FeedbackSection" name="FeedbackSection" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button id="sendFeedbackButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-closed-captioning"></i>Send</button>
+                        <button id="cancelFeedbackButton" type="reset" class="btn btn-secondary"><i class="fa-solid fa-toilet-paper-slash"></i>Cancel</button>
+                    </div>
+                    <div id="thankYouMessage" style="display: none;">
+                    </div>
+                </form>
+            </main>
+
+            <img class="img-fluid w-50 d-none d-sm-block" src="images/undraw_feedback_re_urmj.svg" alt=""/>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light">
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="images/undraw_undraw_undraw_undraw_undraw_completion_progress_1oxr_gag2_-1-_0h44_-1-_vov5_-1-_fyy2.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Harmony Hub Email: HarmonyHub@gmail.com</h2>
+                    <h2>Harmony Hub Phone: 657-987-8876</h2>
+                    <h2>Harmony Hub Address: Way st Brooklyn Ontario</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/namespace.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/nav.js"></script>
+</body>
+</html>

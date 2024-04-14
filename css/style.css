@@ -1,0 +1,17 @@
+/* allows th nav bar to not overlap the content*/
+body::before{
+    display: block;
+    content:'';
+    height: 50px;
+}
+.btn-custom {
+    background-color: mediumpurple;
+    color: white; /* Set the text color to ensure readability */
+}
+
+.btn-custom:hover {
+    background-color: darkorchid; /* Change color on hover for a visual effect */
+}
+.custom-purple {
+    background-color: mediumpurple;
+}

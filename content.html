@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nathaniel Mais">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harmony Blogs</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body {
+            background-color: #343a40; /* Use the same color as Bootstrap's bg-dark */
+            color: #fff; /* Set the text color to white */
+        }
+        .events-header {
+            text-align: center;
+        }
+        .events-description {
+            margin-top: 2rem;
+        }
+        .events-img {
+            margin-top: 2rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; /* Adjust as necessary */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header></header>
+<!-- Showcase -->
+<!-- Page Title and Initial Description -->
+<section class="bg-dark text-light p-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1><i class="fa-solid fa-moon"></i> Welcome to Harmony Hub's Events Planning Page</h1>
+                <p>
+                    This page serves as a centralized platform for users to propose, organize, and manage community events within Harmony Hub. It enhances user engagement by allowing members to contribute actively to the community calendar, promoting collaboration and participation. This page also provides an interactive way for the community to stay connected and informed about upcoming activities and gatherings.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Information and PS5 Controller Image -->
+<section class="bg-dark text-light p-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Additional Information Column -->
+            <div class="col-md-6">
+                <h2>Tournament Information</h2>
+                <p>Join our upcoming gaming tournament!</p>
+                <p>There will be a super smash bros 2v2 tournament. All characters are allowed to be used. There will be the heats the quaterfinals the semi-finals and the finals. Every player will start at the lowest bracket and will move up if they win.</p>
+                <!-- Additional content about the tournament -->
+            </div>
+
+            <!-- PS5 Controller Image Column -->
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/undraw_gaming_re_cma2.svg" alt="PS5 Controller" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark text-light p-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Additional Information Column -->
+            <div class="col-md-6">
+                <h2>Soccer Tournament</h2>
+                <p>Join our upcoming Soccer tournament!</p>
+                <P></P>
+                <!-- Additional content about the tournament -->
+            </div>
+
+            <!--soccer Image Column -->
+            <div class="col-md-6">
+                <img class="img-fluid" src="images/undraw_junior_soccer_6sop.svg" alt="Junior Soccer" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <main class="container">
+                <h1><i class="fa-solid fa-moon"></i>Feedback</h1>
+
+
+                <form id="feedbackForm">
+                    <div class="mb-3">
+                        <label for="FeedbackSection" class="form-label">Feedback</label>
+                        <textarea id="FeedbackSection" name="FeedbackSection" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button id="sendFeedbackButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-closed-captioning"></i>Send</button>
+                        <button id="cancelFeedbackButton" type="reset" class="btn btn-secondary"><i class="fa-solid fa-toilet-paper-slash"></i>Cancel</button>
+                    </div>
+                    <div id="thankYouMessage" style="display: none;">
+                    </div>
+                </form>
+            </main>
+
+            <img class="img-fluid w-50 d-none d-sm-block" src="images/undraw_feedback_re_urmj.svg" alt=""/>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light">
+</footer>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/namespace.js"></script>
+<script src="scripts/contact.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/nav.js"></script>
+</body>
+</html>
